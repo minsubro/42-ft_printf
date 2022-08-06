@@ -1,0 +1,16 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/minsukan/Desktop/42/ft_printf'
+cc -Wall -Wextra -Werror -c ft_flag_set.c -o ft_flag_set.o
+ 
+cc -Wall -Wextra -Werror -c ft_itoa.c -o ft_itoa.o
+cc -Wall -Wextra -Werror -c ft_printf_memory_utils.c -o ft_printf_memory_utils.o
+cc -Wall -Wextra -Werror -c ft_printf_type.c -o ft_printf_type.o
+cc -Wall -Wextra -Werror -c ft_printf_type2.c -o ft_printf_type2.o
+cc -Wall -Wextra -Werror -c ft_printf_utils.c -o ft_printf_utils.o
+cc -Wall -Wextra -Werror -c ft_printf_utils2.c -o ft_printf_utils2.o
+cc -Wall -Wextra -Werror -c ft_printf.c -o ft_printf.o
+cc -Wall -Wextra -Werror -c ft_type_check.c -o ft_type_check.o
+cc -Wall -Wextra -Werror -c ft_write.c -o ft_write.o
+ar crs libftprintf.a ft_flag_set.o ft_itoa.o ft_printf_memory_utils.o ft_printf_type.o ft_printf_type2.o ft_printf_utils.o ft_printf_utils2.o ft_printf.o ft_type_check.o ft_write.o
+make: Leaving directory `/Users/minsukan/Desktop/42/ft_printf'
+ 
